@@ -1,7 +1,7 @@
 # Arduino-GMR-Current-Sensing
-Read a GMR magnetometer over a trace with and Arduino and display the current on a virtual meter.
+Read a GMR magnetometer over a trace with an Arduino and display the current throgh the trace on a virtual meter.
 
-Uses an NVE AAL004 magnetic sensor, an Arduino Uno, Canvas Gauges, and the Involt Arduino-to-HTML framework (based on the Chrome browser and NW.js; previously known as node-webkit).
+Uses an NVE AAL004 magnetometer sensor, an Arduino Uno, Canvas Gauges, and the Involt Arduino-to-HTML framework (based on the Chrome browser and NW.js; previously known as node-webkit).
 
 Involt download: https://github.com/Involt/Involt
 
