@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Ammeter</title>
+	<script src="core/jquery/jquery-2.1.0.min.js"></script>
+	<script src="core/jquery/jquery.nouislider.min.js"></script>
+	<script src="core/jquery/jquery.knob.js"></script>
+	<script src="core/jquery/insQ.min.js"></script>
+	<script src="settings.js"></script>
+	<script src="core/bridge.js"></script>
+	<script src="core/framework.js"></script>
+ 	<!-- Gauge/meter graphic script -->
+    <script src="gauge.min.js"></script>
+ 	<!-- Current sensor script -->
+    <script src="meterjquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/framework.css">
+</head>
+<body bgcolor="#000000">
+<!-- Meter vertical spacer (blank table) -->
+<table width="100%" border="0" cellspacing="00" cellpadding="0" height="80"></table>
+<div align="center"> 
+<img src="meter-overlay-black-background.gif" style="position:absolute; margin-left:-26px; top:54px">
+<canvas
+    data-type="radial-gauge"
+    data-height="600"
+    data-width="600"
+    data-min-value="0"
+    data-borders="false"
+    data-color-border-shadow="false"
+    data-max-value="5"
+    data-major-ticks="0,1,2,3,4,5"
+    data-minor-ticks="5"
+    data-ticks-angle="120"
+    data-start-angle="120"
+    data-stroke-ticks="false"
+    data-highlights="false"
+    data-color-plate="#ffffff"
+    data-color-major-ticks="#0046AD"
+    data-color-minor-ticks="#0046AD"
+    data-color-numbers="#0046AD"
+    data-color-needle="#ff0000"
+    data-color-needle-end="#ff0000"
+    data-needle-circle-size="5"
+    data-needle-circle-outer="true"
+    data-needle-type="line"
+    data-needle-start="0"
+    data-needle-end="92"
+    data-needle-width="2"
+    data-needle-shadow="false"
+    data-value-box="true"
+	data-value-int="1"
+	data-value-dec="2"
+	data-color-value-text="#0046AD"
+    data-color-value-text-shadow="true" 
+    data-color-value-box-rect="#0046AD"
+    data-color-value-box-rect-end="#0046AD"
+    data-color-value-box-background="#ffffff"
+    data-color-value-box-shadow="false"
+    data-animation-duration="100"
+    data-use-min-path="true"
+</canvas>
+</div>
+</body>
+</html>
